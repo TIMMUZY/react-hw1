@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./fon.jpeg);
+    color: yellow;
+}
+
+.App{
+    width: 40%;
+    height: 40vh;
+    border: 5px solid purple;
+    border-radius: 20%;
+    margin: 50px auto;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(./238202-svetik.jpeg)
+}
+.App button{
+    width: 100px;
+    height: 80px;   
+    margin: 15px;
+    background-color: rgb(76, 136, 182);
+    border: 3px solid purple;
+    border-radius: 20%;
+    font-size: 27px;
+    color: bisque;
+}
+
+h1{
+    font-size: 7rem;
+    width: 100%;
+    text-align: center;
+
+
+}
